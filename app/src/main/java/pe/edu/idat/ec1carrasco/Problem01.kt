@@ -77,7 +77,7 @@ fun calcularEst(numHoras: Double?, numMinutos: Double?): String {
     val totalHoras = totalMinutos / 60
     val pago = totalHoras * 1500
     val resultado = String.format("%.2f", pago)
-    return "Va a cancelar el total de S/$resultado por $numHoras horas y $numMinutos minutos"
+    return "Va a cancelar el total de S./$resultado por $numHoras horas y $numMinutos minutos"
 }
 
 @Composable
