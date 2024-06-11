@@ -56,7 +56,7 @@ fun MainMenu(navigateTo: (String) -> Unit) {
         }
         espacio(tamanio = 16)
         Button(onClick = { navigateTo("lista") }) {
-            Text("Lista número pares")
+            Text("Lista de números pares")
 
         }
     }
