@@ -54,7 +54,7 @@ fun Form03(navigateTo: (String) -> Unit){
             espacio(tamanio = 16)
 
             Button(onClick = { navigateTo("main") }) {
-                Text(text = "Regresar Menú")
+                Text(text = "Regresar al Menú")
             }
 
         }
