@@ -58,7 +58,7 @@ fun resultado(): String {
         }
     }
 
-    var resultado = "Lista de números pares: "
+    var resultado = "Lista de números pares es: "
     for (numero in numeros) {
         resultado += "$numero "
     }
