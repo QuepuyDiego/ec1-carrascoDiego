@@ -87,5 +87,5 @@ fun calcularPro(nota1: Double?, nota2: Double?, nota3:Double?): String {
     }
 
     val resultado = (nota1 * 0.2) + (nota2 * 0.3) + (nota3 * 0.5)
-    return "El promedio del alumno es: $resultado"
+    return "El promedio del alumno es : $resultado"
 }
